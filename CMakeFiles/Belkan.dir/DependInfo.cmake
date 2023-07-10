@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/juanma/Escritorio/Practica2/practica2_linux/bin_src/juego.cc" "CMakeFiles/Belkan.dir/bin_src/juego.cc.o" "gcc" "CMakeFiles/Belkan.dir/bin_src/juego.cc.o.d"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/bin_src/juego.cc" "CMakeFiles/Belkan.dir/bin_src/juego.cc.o" "gcc" "CMakeFiles/Belkan.dir/bin_src/juego.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/obj3DLib.dir/DependInfo.cmake"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/motorLib.dir/DependInfo.cmake"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/modelosBelkanLib.dir/DependInfo.cmake"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/GLUILib.dir/DependInfo.cmake"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/comportamientosLib.dir/DependInfo.cmake"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/CMakeFiles/obj3DLib.dir/DependInfo.cmake"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/CMakeFiles/motorLib.dir/DependInfo.cmake"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/CMakeFiles/modelosBelkanLib.dir/DependInfo.cmake"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/CMakeFiles/GLUILib.dir/DependInfo.cmake"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/CMakeFiles/comportamientosLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

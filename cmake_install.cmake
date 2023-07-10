@@ -1,4 +1,4 @@
-# Install script for directory: /home/juanma/Escritorio/Practica2/practica2_linux
+# Install script for directory: /home/juanma/Escritorio/MB/Los-Mundos-de-Belkan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/juanma/Escritorio/Practica2/practica2_linux/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

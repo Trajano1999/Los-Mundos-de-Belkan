@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/juanma/Escritorio/Practica2/practica2_linux/Comportamientos_Jugador/aldeano.cpp" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o.d"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/Comportamientos_Jugador/jugador.cpp" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o.d"
-  "/home/juanma/Escritorio/Practica2/practica2_linux/src/comportamientos/comportamiento.cpp" "CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o.d"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/Comportamientos_Jugador/aldeano.cpp" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o.d"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/Comportamientos_Jugador/jugador.cpp" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o.d"
+  "/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/src/comportamientos/comportamiento.cpp" "CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o" "gcc" "CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/juanma/Escritorio/Practica2/practica2_linux/include
+CXX_INCLUDES = -I/home/juanma/Escritorio/MB/Los-Mundos-de-Belkan/include
 
 CXX_FLAGS =  -fopenmp -pthread -std=c++11
 

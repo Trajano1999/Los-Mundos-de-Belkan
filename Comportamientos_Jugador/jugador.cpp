@@ -578,7 +578,7 @@ struct CriterioCostoUniforme{
 			return true;
 		else{
 			if(a.costeUnif == b.costeUnif)
-				ComparaEstados()(a.st,b.st);
+				return ComparaEstados()(a.st,b.st);
 			else
 				return false;
 		}
@@ -592,7 +592,7 @@ struct CriterioAestrella{
 			return true;
 		else{
 			if(a.costeA == b.costeA)
-				ComparaEstados()(a.st,b.st);
+				return ComparaEstados()(a.st,b.st);
 			else
 				return false;
 		}
