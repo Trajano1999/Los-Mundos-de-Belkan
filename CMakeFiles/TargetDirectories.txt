@@ -1,0 +1,9 @@
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/obj3DLib.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/GLUILib.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/modelosBelkanLib.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/comportamientosLib.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/motorLib.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/Belkan.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/BelkanSG.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/edit_cache.dir
+/home/juanma/Escritorio/Practica2/practica2_linux/CMakeFiles/rebuild_cache.dir
