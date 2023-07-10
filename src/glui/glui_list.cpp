@@ -100,9 +100,9 @@ int    GLUI_List::mouse_down_handler( int local_x, int local_y )
 {
   int tmp_line;
   unsigned long int ms;
-  timeb time;
-  ftime(&time);
-  ms = time.millitm + (time.time)*1000;
+  timespec currentTime;
+  clock_gettime(CLOCK_REALTIME, &currentTime);
+  ms = currentTime.tv_nsec / 1000000 + currentTime.tv_sec * 1000;
 
   tmp_line = find_line( local_x-x_abs, local_y-y_abs-5 );
   if ( tmp_line == -1 ) {
