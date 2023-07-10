@@ -1,4 +1,4 @@
-**# Los Mundos de Belkan
+# Los Mundos de Belkan
 
 Practica de la asignatura de **Inteligencia Artificial**.
 
