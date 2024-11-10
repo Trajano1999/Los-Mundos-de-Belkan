@@ -1,39 +1,38 @@
 # Los Mundos de Belkan
 
-Practica de la asignatura de **Inteligencia Artificial**.
+Práctica de la asignatura de **Inteligencia Artificial** del Doble Grado en Ingeniería Informática y Matemáticas de la Universidad de Granada.
 
 ## Descripción
 
-Este programa consiste en que nuestro jugador (flecha roja) debe alcanzar distintos objetivos (hexágono rojo) en el menor tiempo y con la mayor energía posible. La idea es que dado un mapa, distinguimos por colores distintas zonas como agua, tierra, arena, etc, con distinto nivel de dificultad al pasar sobre ellas, y nuestro usuario debe llegar a su destino final minimizando el cansancio y maximizando el tiempo. Procedo a explicar la vista de interfaz y posteriormente explicaré los distintos niveles.
+Este programa consiste en que el jugador (flecha roja) alcance distintos objetivos (hexágonos rojos) con un tiempo y energía limitados. Asimismo, cada mapa cuenta con distintas zonas (agua, tierra, arena, etc) y cada una cuenta con un nivel de dificultad a ser atravesada. Por tanto, el jugador debe llegar a su destino optimizando el tiempo y la energía.
 
-La parte gráfica se divide en tres partes. La primera es el mapa en el que nos situamos (a la izquierda de la pantalla), luego la vista en primera persona del jugador (arriba a la derecha) y finalmente toda la informaciń asociada (abajo a la derecha).
+La parte gráfica se divide en tres partes. La primera es el mapa, que se encuentra a la izquierda de la pantalla; la segunda es la vista en primera persona del jugador, ubicada en la parte superior derecha; y la tercera es el área de información, situadada en la parte inferior derecha.
 
-Como he comentado antes, se distinguen varios niveles de juego:
-    
-1. El primer nivel consiste en que, dado un mapa conocido, el usuario busca el camino más eficiente usando los algoritmos de **profundidad**, **anchura** o **coste uniforme**. Una vez llegue a su destino, termina la partida.
+Además, se distinguen varios niveles de juego:
 
-2. El segundo nivel es el más interesante, ya que consiste que dado un determinado tiempo y un nivel de fortaleza, deberá obtener el máximo número de objetivos posibles. Recordemos que la partida terminará cuando se quede sin tiempo o sin energía. Para este segundo nivel, he utilizado el **algoritmo A***. Otro punto a tener en cuenta, es que el jugador al comienzo de cada juego, desconocerá el mapa por completo y según pase por distintas zonas, irá aprendiendo para usar ese conocimiento en el futuro para hacer rutas más eficientes.
+1. El primer nivel consiste en que, dado un mapa conocido, el jugador busca el camino más eficiente usando los algoritmos de **profundidad**, **anchura** o **coste uniforme**. Una vez alcanza su destino, termina la partida.
+
+2. El segundo nivel es el más complejo e interesante, ya que, dado un determinado tiempo y un nivel de fortaleza, el jugador debe conseguir el máximo número de objetivos posibles. Es importante destacar que la partida terminará cuando el jugador se quede sin tiempo o energía. Además, al inicio de cada juego, el jugador no conocerá el mapa en su totalidad, sino que, a medida que explore diferentes áreas, irá adquiriendo conocimientos que le permitirán trazar rutas más eficientes en futuras partidas. Para ello, se hace uso del **algoritmo A\***.
 
 ## Compilación y Ejecución
 
-En primer lugar, tras descargar los archivos del repositorio, para compilar este programa en **Linux**, deberemos darle permisos y ejecutar el archivo `install.sh` de la siguiente forma :
+En primer lugar, tras descargar los archivos del repositorio para compilar este programa en **Linux**, será necesario otorgar los permisos correspondientes y ejecutar el archivo ``install.sh`` de la siguiente forma:
 
-`chmod +x install.sh`
+````
+chmod +x install.sh
+./install.sh
+````
 
-`./install.sh`
+Una vez hecho esto, se debe ejecutar el comando ``make`` y esperar a que se complete el proceso de compilación.
 
-Una vez hecho esto, debemos realizar un `make`, y esperar a que compile.
+Finalmente, existen dos opciones para ejecutar el programa, siendo recomendable optar por la primera de ellas:
 
-Finalmente, para ejecutar el programa, tenemos dos opciones:
-    
-1. Podemos directamente ejecutar el comando :
+1. Ejecutar directamente el siguiente comando, que permite una configuración manual:
 
-    `./Belkan`
-    
-    Esto dará inicio al juego, y deberemos configurarlo manualmente.
+    ``./Belkan``
 
-2. Podemos ejecutar :
+2. Ejecutar el siguiente comando, en el que los parámetros especifican la configuración deseada:
 
-    `./BelkanSG {mapa} {semilla} {nivel} {origen(F)} {origen(C)} {destino(F)} {destino(C)}`
+    ``./BelkanSG {mapa} {semilla} {nivel} {origen(F)} {origen(C)} {destino(F)} {destino(C)}``
 
-    Una vez hecho esto podremos disfrutar del juego, aunque yo recomiendo la primera ejecución.
+Con estos pasos completados, se podrá comenzar a disfrutar del juego.
